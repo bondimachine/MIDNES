@@ -48,3 +48,16 @@ You may need to update `tusb_config_rp2040.h` to enable USB MIDI Host support.
 
 TODO
 
+
+## Joystick mode
+
+
+Pull PIN 14 to GND to set standard joystick mode. In this mode keyboard notes work as joystick buttons like:
+
+```
+  |  |█| |█|  |  |█| |█| |█|  |
+  |  |█| |█|  |  |S| |S| |█|  |
+  |  |█| |↑|  |  |E| |T| |█|  |
+  |   |   |   |   |   |   |   |
+  | ← | ↓ | → | ↑ | A | B | A |
+```
